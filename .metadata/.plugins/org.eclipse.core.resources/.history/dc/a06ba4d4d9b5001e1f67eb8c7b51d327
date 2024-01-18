@@ -1,0 +1,9 @@
+package com.ajit.CURDOperations.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.ajit.CURDOperations.model.Student;
+
+public interface CurdRepository extends JpaRepository<Student, rollNo>{
+
+}

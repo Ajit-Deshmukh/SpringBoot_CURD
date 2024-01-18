@@ -1,0 +1,14 @@
+package com.ajit.CURDOperations.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.stereotype.Repository;
+
+import com.ajit.CURDOperations.model.Student;
+
+@Repository
+public interface CurdRepository extends JpaRepository<Student, Integer>{
+//@Query(value="update table Student s where s.first_name=:f")
+//	void findByrollNo(int rollNo, String firstName, String lastName, int std);
+
+}

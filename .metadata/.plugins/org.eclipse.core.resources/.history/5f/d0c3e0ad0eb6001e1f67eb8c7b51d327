@@ -1,0 +1,27 @@
+package com.ajit.CURDOperations.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.ajit.CURDOperations.model.Student;
+import com.ajit.CURDOperations.repository.CurdRepository;
+
+@Service
+public class CurdService {
+	
+@Autowired
+CurdRepository repo;
+
+	public List<Student> displayAll() {
+		return repo.findAll();
+	}
+
+	public void updateRecord(int rollno, String fname, String lname, int std) {
+//repo.findByrollNo(rollno,fname,lname,std);		
+	}
+
+	
+
+}

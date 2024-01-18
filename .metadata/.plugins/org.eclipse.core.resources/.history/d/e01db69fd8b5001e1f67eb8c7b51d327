@@ -1,0 +1,47 @@
+package com.ajit.CURDOperations.model;
+
+public class Student {
+private Integer rollNo;
+private String firstName;
+private String lastName;
+private Integer std;
+public Integer getRollNo() {
+	return rollNo;
+}
+public void setRollNo(Integer rollNo) {
+	this.rollNo = rollNo;
+}
+public String getFirstName() {
+	return firstName;
+}
+public void setFirstName(String firstName) {
+	this.firstName = firstName;
+}
+public String getLastName() {
+	return lastName;
+}
+public void setLastName(String lastName) {
+	this.lastName = lastName;
+}
+public Integer getStd() {
+	return std;
+}
+public void setStd(Integer std) {
+	this.std = std;
+}
+@Override
+public String toString() {
+	return "Student [rollNo=" + rollNo + ", firstName=" + firstName + ", lastName=" + lastName + ", std=" + std + "]";
+}
+public Student(Integer rollNo, String firstName, String lastName, Integer std) {
+	super();
+	this.rollNo = rollNo;
+	this.firstName = firstName;
+	this.lastName = lastName;
+	this.std = std;
+}
+public Student() {
+	super();
+}
+
+}

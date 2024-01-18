@@ -1,0 +1,5 @@
+package com.ajit.CURDOperations.controller;
+
+public class CurdController {
+
+}

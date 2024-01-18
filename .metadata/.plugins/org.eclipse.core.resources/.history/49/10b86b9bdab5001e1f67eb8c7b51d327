@@ -1,0 +1,5 @@
+package com.ajit.CURDOperations.service;
+
+public class CurdService {
+
+}

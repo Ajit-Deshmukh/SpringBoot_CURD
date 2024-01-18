@@ -1,0 +1,5 @@
+package com.ajit.CURDOperations.model;
+
+public class Student {
+
+}
